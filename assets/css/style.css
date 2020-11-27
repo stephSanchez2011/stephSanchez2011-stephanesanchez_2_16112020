@@ -71,13 +71,13 @@ header
     font-weight: bold;
 }
 
-form
+#localisation
 {
     display: flex;
     align-items: center;
 }
 
-#localisation
+#ico-localisation
 {
     width: 40px;
     height: 40px;
@@ -86,7 +86,7 @@ form
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-#localisation i
+#ico-localisation i
 {
     margin-top: 12px;
 }
@@ -111,7 +111,203 @@ form
 }
 
 /*-------------------------
-        footer
+        Filters
+---------------------------*/
+
+#filters
+{
+    display: flex;
+    margin-top: 2em;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#filters p
+{
+    font-weight: bold;
+}
+
+.title-filter
+{
+    font-size: 21px;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+
+.individual-filters
+{
+    margin-right: 2rem;
+    display: inline-flex;
+    border: 1px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    font-weight: bold;
+    height: 48px;
+    max-width: 180px;
+}
+
+.individual-filters a
+{
+    margin-top: 13px;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.individual-filters:hover
+{
+    transform: scale(1.10);
+}
+
+.ico-filters
+{
+    background-color: #cde1ff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -1px;
+    color: #0065FC;
+}
+
+#info
+{
+    display: flex;
+    align-items: center;
+}
+.ico-info
+ {
+    display: inline-flex;
+    color: #0065FC;
+    border: 1px solid #d9d9d9;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+ }
+
+ .ico-info i
+ {
+    margin-top: 5px ;
+    margin-left: 9px;
+ }
+/*-------------------------
+        Accomodation
+---------------------------*/
+
+#fff
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#accomodation
+{
+    flex-wrap: wrap;
+    margin: 40px 0px 0px 30px;    
+}
+
+.commmun-back-acco
+{
+    max-width: 890px;
+    min-width: 333px;
+}
+
+#background
+{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#accomodation-title
+{
+    font-size: 21px;
+    margin: 30px 0px 0px 45px;
+    display: inline-block;
+}
+
+.accomodation-card
+{
+    box-shadow: 0px 0px 3px 2px rgb(204 201 201 / 1);
+    display: inline-flex;
+    background: white;
+    width: 235px;
+    height: 235px;
+    margin: 0px 0px 20px 30px ;
+    border-radius: 25px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    justify-content: space-around;
+}
+.accomodation-card img
+{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    max-height: 150px;
+    width: 225px;
+}
+
+.accomodation-card :hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.card-title
+{
+    font-weight: bold;
+    text-align: left;
+}
+
+#show-more
+{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#show-more:hover
+{
+    transform: scale(1.05);
+}
+
+
+#most-popular
+{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 40px 0px 0px 0px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;  
+    height: 620px;
+    max-width: 390px;
+    min-width: 384px;
+}
+
+#most-popular img
+{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    max-height: 150px;
+    width: 225px;
+}
+/*-------------------------
+        Footer
 ---------------------------*/
 
 footer
