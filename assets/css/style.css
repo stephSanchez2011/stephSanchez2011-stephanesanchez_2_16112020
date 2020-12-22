@@ -2,7 +2,7 @@
         Import
 ---------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 /*-------------------------
         Init
@@ -13,7 +13,7 @@ body
     margin: auto;
 }
 
-p
+*
 {
     font-family: 'Raleway', sans-serif;
 }
@@ -42,7 +42,7 @@ header
 
 .nav a 
 {
-    color: #0065FC;
+    color: black;
     padding: 1em;
     display: block;
     text-align:center;
@@ -51,7 +51,8 @@ header
 }
 .nav a:hover 
 {
-    border-top: 1px solid #0065FC;
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
 }
 
 .nav .menu 
@@ -59,6 +60,11 @@ header
     display: flex;
     flex-direction : row;
     justify-content: flex-end;
+}
+
+.nav a.blue
+{
+    color: #0065FC;
 }
 
 /*-------------------------
@@ -164,7 +170,7 @@ header
 
 .ico-filters
 {
-    background-color: #cde1ff;
+    background-color: #DEEBFF;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -200,112 +206,282 @@ header
         Accomodation
 ---------------------------*/
 
-#fff
+#flex
 {
     display: flex;
     flex-wrap: wrap;
 }
-#accomodation
+
+#accomodation-margin
 {
-    flex-wrap: wrap;
-    margin: 40px 0px 0px 30px;    
+    margin: 0px 0px 0px 25px;
 }
 
-.commmun-back-acco
+.accomodation
 {
-    max-width: 890px;
-    min-width: 333px;
-}
-
-#background
-{
-    background-color: #F2F2F2;
+    width: 880px;
+    min-width: 380px;
+    margin: 20px 20px 40px 0px;
     border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    background-color: #F2F2F2;
 }
+
 #accomodation-title
 {
     font-size: 21px;
-    margin: 30px 0px 0px 45px;
+    margin: 30px 0px 30px 20px;
     display: inline-block;
+    font-weight: bold;
 }
 
 .accomodation-card
 {
-    box-shadow: 0px 0px 3px 2px rgb(204 201 201 / 1);
     display: inline-flex;
-    background: white;
-    width: 235px;
-    height: 235px;
-    margin: 0px 0px 20px 30px ;
-    border-radius: 25px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
     justify-content: space-around;
+    width: 250px;
+    margin: 0px 20px 20px 0px ;
+    padding: 4px;
+    line-height: 5px;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0px 0px 3px 2px rgb(204 201 201 / 1);
 }
+
 .accomodation-card img
 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    margin-top: 4px;
     margin-left: auto;
     margin-right: auto;
     background: white;
-    max-height: 150px;
-    width: 225px;
+    height: 150px;
+    width: 250px;
 }
 
-.accomodation-card :hover
+.accomodation-card:hover
 {
     transform: scale(1.05);
     cursor: pointer;
 }
+
 .card-title
 {
     font-weight: bold;
-    text-align: left;
+    font-size: 1.1rem;
 }
 
-#show-more
+.card-price
+{
+    font-size: 1rem;
+}
+
+.accomodation-card figure
+{
+    margin-top: 0px !important;
+}
+
+.detail-accomodation
+{
+    line-height: 5px;
+    margin-left: 10px;
+}
+
+.fa-star
+{
+    color: blue;
+}
+
+
+#show-more, #show-more a
 {
     margin-left: 10px;
     margin-bottom: 20px;
     text-decoration: none;
+    font-weight: bold;
     color: black;
 }
 
 #show-more:hover
 {
-    transform: scale(1.05);
+    text-decoration: underline;
+    cursor: pointer;
 }
 
+/*-------------------------
+        Most Popular
+---------------------------*/
+#most-popular-title
+{
+    margin: 30px 0px 0px 10px;
+    font-size: 21px;
+}
+#most-popular-title i
+{
+    margin-left: 130px;
+}
 
 #most-popular
 {
-    flex-wrap: wrap;
     display: flex;
-    margin: 40px 0px 0px 0px;
+    flex-wrap: wrap;
+    margin: 20px 0px 40px 0px;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 40px;  
-    height: 620px;
-    max-width: 390px;
-    min-width: 384px;
+    min-width: 380px;
+    width: 380px;
+}
+
+#most-popular-cards
+{
+    margin: 0 0 0 10px !important;
+}
+
+.most-popular-card
+{
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto 30px auto;
+    min-width: 320px;
+    max-width: 360px;
+    height: 150px;
+}
+
+.most-popular-card:hover
+{
+    transform: scale(1.03);
+}
+
+.most-popular-title
+{
+    display: flex!important;
+    align-items: center;
+}
+
+
+#most-popular i.stonks
+{
+    font-size: 1.2em;
 }
 
 #most-popular img
 {
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    margin-top: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    background: white;
-    max-height: 150px;
-    width: 225px;
+    margin: 5px 0 5px 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 140px;
+    width: 130px;
 }
+
+.figure-popular
+{
+    display: inline-flex;
+    margin: 0px !important;
+}
+
+.figure-popular figcaption
+{
+    margin: 0px 0px 5px 10px!important;
+}
+
+/*-------------------------
+        Activity
+---------------------------*/
+
+#activity
+{
+    display: flex;
+    margin-left: 40px;
+}
+
+#activity-title
+{
+    display: inline-block;
+}
+
+#activity-cards
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.activity-card-max
+{
+    height: 395px;
+    width: 280px;
+    margin: 0px 25px 20px 0;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 2px rgb(209 201 201 / 0.4);
+}
+
+.activity-card-max img
+{
+    height: 350px;
+    width: 280px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activity-card
+{
+    height: 210px;
+    width: 280px;
+    margin: 0px 25px 20px 0px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 2px rgb(209 201 201 / 0.4);
+}
+
+.activity-card img
+{
+    height: 170px;
+    width: 280px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activity-card-smaller
+{
+    height: 170px;
+    width: 280px;
+    margin: 0px 25px 20px 0px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 2px rgb(209 201 201 / 0.4);
+}
+
+.activity-card-smaller img
+{
+    height: 120px;
+    width: 280px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activity-cards-smaller
+{
+    flex-direction: column;
+}
+
+.figure-activity
+{
+    margin: 0px !important;
+}
+
+.activity-card-title
+{
+    margin: 7px 0px 2px 25px;
+    font-weight: bold;
+}
+
+.activity-card-max:hover,
+.activity-card:hover,
+.activity-card-smaller:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 /*-------------------------
         Footer
 ---------------------------*/
@@ -316,7 +492,8 @@ footer
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 190px;
+    min-height: 190px;
+    min-width: 360px;
     align-items: center;
     flex-wrap: wrap;
 
