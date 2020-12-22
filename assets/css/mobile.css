@@ -1,0 +1,131 @@
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+/*-------------------------
+        menu
+---------------------------*/
+        .nav .menu
+        {
+            flex-direction: row;
+        }
+
+        .nav a#nav-1,
+        .nav a#nav-2
+        {
+            border-bottom: 2px solid #f2f2f2;
+        }
+        .nav a:hover 
+        {
+            border-top: none;
+            border-bottom: 2px solid #0065FC!important;
+            color: #0065FC;
+        }
+
+        #nav-3
+        {
+            font-weight: bold;
+        }
+/*-------------------------
+        Filter
+---------------------------*/
+        .title-filter
+        {
+            display: block;
+            width: 100%;
+        }
+        
+        .individual-filters
+        {
+            margin-right: 10px!important;
+        }
+/*-------------------------
+        Most Popular
+---------------------------*/
+        #most-popular
+        {
+            border-radius: 0px;
+        }
+
+        #most-popular-title
+        {
+            margin-bottom: 30px;
+        }
+
+        .most-popular-card
+        {
+            border-radius: 20px;
+            margin: 0 0px 10px 10px;
+            min-width: 320px;
+            max-width: 340px;
+            height: 150px;
+        }
+/*-------------------------
+        Accomodation
+---------------------------*/
+        .accomodation
+        {
+            background: none;
+        }
+        #accomodation-margin
+        {
+            margin-left: 10px;
+        }
+
+        .accomodation-card
+        {
+            margin-right: 0px;
+            width: 350px;
+        }
+        .accomodation-card img
+        {
+            width: 350px;
+            height: 130px;
+        }
+/*-------------------------
+        Activity
+---------------------------*/
+        #activity
+        {
+            margin-left: 15px;
+        }
+
+        .activity-card-max,
+        .activity-card,
+        .activity-card-smaller
+        {
+            margin-right: 0px;
+            width: 350px;
+            height: 200px;
+        }
+        .activity-card-max img,
+        .activity-card img ,
+        .activity-card-smaller img
+        {
+            height: 150px;
+            width: 350px;
+        }
+
+/*-------------------------
+        Footer
+---------------------------*/
+        
+        footer
+        {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: inherit;
+        }
+        
+        .footer-margin
+        {
+            margin-left: 25px;
+        }
+     }
+
+@media (max-width : 1300px) {
+    #most-popular
+    {
+        margin-bottom: 0px;
+    }
+    }
