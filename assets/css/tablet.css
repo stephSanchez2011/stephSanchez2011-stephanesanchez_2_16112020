@@ -1,0 +1,126 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+/*-------------------------
+        First Section
+---------------------------*/
+
+    #first-section
+    {
+        margin-left: 10px;
+    }
+
+    #filter-info
+    {
+        margin-left: 10px;
+    }
+
+
+/*-------------------------
+        Most Popular
+---------------------------*/
+
+    #most-popular
+    {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .most-popular-card
+    {
+        margin-bottom: 20px;
+        margin-right: 20px;
+        min-width: 230px;
+        width: 230px;
+    }
+
+    #most-popular-cards
+    {
+        display: flex;
+    }
+
+    #most-popular-title
+    {
+        margin: 20px 0px 20px 10px;
+    }
+    #most-popular-title i {
+        margin-left: 500px;
+    }
+    #most-popular .card-title
+    {
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+    
+    #most-popular .card-price
+    {
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    #most-popular .fa, .fas
+    {
+        margin-bottom: 10px;
+    }
+
+    #most-popular-title
+    {
+        width: 100%;
+    }
+
+    #most-popular img
+    {
+        margin: 5px 0 5px 5px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        height: 135px;
+        width: 220px;
+    }
+    
+    .figure-popular
+    {
+        display: block;
+    }
+
+/*-------------------------
+        Accomodation
+---------------------------*/
+
+    .accomodation
+    {
+        border-radius: 0px;
+        width: 100%;
+        min-width: 100%;
+    }
+
+    #accomodation-margin
+    {
+        margin-left: 105px;
+    }
+
+/*-------------------------
+        Activity
+---------------------------*/
+
+    #activity-title
+    {
+        margin-left: 20px;
+    }
+
+    #activity
+    {
+        max-width: 610px;
+        margin: 0 auto;
+    }
+/*-------------------------
+        footer
+---------------------------*/
+
+    footer
+    {
+        margin: 0px 0px;
+    }
+    
+}

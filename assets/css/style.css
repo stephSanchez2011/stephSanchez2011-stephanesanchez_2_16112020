@@ -39,6 +39,10 @@ header
     padding: 0px;
     list-style:none;
 }
+.nav-mobile
+{
+    display: none;
+}
 
 .nav a
 {
@@ -350,7 +354,6 @@ header
     margin: 0 auto 30px auto;
     min-width: 320px;
     max-width: 360px;
-    height: 150px;
 }
 
 .most-popular-card:hover
@@ -409,6 +412,7 @@ header
 {
     display: inline-flex;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .activity-card-max

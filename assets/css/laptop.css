@@ -1,0 +1,92 @@
+/*--------------------
+    laptop
+----------------------*/
+@media (min-width : 1025px) and (max-width : 1300px) {
+
+/*-------------------------
+        header
+---------------------------*/
+
+        header
+        {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        #first-section
+        {
+            margin-left: 30px;
+        }
+
+        #filter-info
+        {
+            margin-left: 30px;
+        }
+
+/*-------------------------
+        Accomodation
+---------------------------*/
+
+        .accomodation
+        {
+            margin: auto;
+        }
+
+/*-------------------------
+        Most Popular
+---------------------------*/
+
+        #most-popular
+        {
+            margin: auto;
+            margin-bottom: 20px;
+            width: 880px;
+        }
+
+        #most-popular-title
+        {
+            font-size: 21px;
+            margin: 20px 0px 20px 10px;
+        }
+
+        #most-popular-cards
+        {
+            display: flex;
+        }
+
+        .most-popular-card
+        {
+            margin-right: 15px;
+            margin-bottom: 20px;
+            min-width: 276px;
+            width: 276px;
+        }
+
+        #most-popular img
+        {
+            height: 166px;
+        }
+
+/*-------------------------
+        Activity
+---------------------------*/
+
+        #activity-cards
+        {
+            max-width: 615px;
+        }
+
+        #activity-title
+        {
+            margin-left: 50px;
+        }
+
+/*-------------------------
+        footer
+---------------------------*/
+
+        footer
+        {
+            margin: 0px 30px;
+        }
+    }
