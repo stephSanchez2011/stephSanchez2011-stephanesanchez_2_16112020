@@ -33,21 +33,20 @@ header
     height: 40px;
 }
 
-.nav ul 
+.nav ul, .nav-mobile ul
 {
     margin: 0px;
     padding: 0px;
     list-style:none;
 }
 
-.nav a 
+.nav a
 {
     color: black;
     padding: 1em;
     display: block;
     text-align:center;
     text-decoration: none;
-
 }
 .nav a:hover 
 {
@@ -55,7 +54,7 @@ header
     color: #0065FC;
 }
 
-.nav .menu 
+.nav .menu
 {
     display: flex;
     flex-direction : row;
@@ -101,6 +100,7 @@ header
 #site-search
 {
     height: 40px;
+    width: 245px;
     border: 0.5px solid #F2F2F2;
     border-left: none;
     border-right: none;
@@ -114,6 +114,11 @@ header
     border-bottom-right-radius: 15px;
     height: 40px;
     border: none;
+}
+
+#mobile-display
+{
+    display: none;
 }
 
 /*-------------------------
