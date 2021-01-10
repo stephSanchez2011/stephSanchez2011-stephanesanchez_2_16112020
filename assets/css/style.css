@@ -24,11 +24,14 @@ body
 /*-------------------------
         Header
 ---------------------------*/
+#reservia-title
+{
+    display: none;
+}
+
 header
 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+
 }
 
 #logo
@@ -36,15 +39,16 @@ header
     height: 40px;
 }
 
-.nav ul, .nav-mobile ul
+.nav ul
 {
     margin: 0px;
     padding: 0px;
     list-style:none;
 }
-.nav-mobile
+
+.nav h3
 {
-    display: none;
+    font-weight: normal!important;
 }
 
 .nav a
@@ -63,9 +67,22 @@ header
 
 .nav .menu
 {
-    display: flex;
-    flex-direction : row;
-    justify-content: flex-end;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 160px);
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__logo {
+    justify-self: start;
+    min-width: 97px;
+    min-height: 45px
+}
+
+
+#menu-title
+{
+    display: none;
 }
 
 .nav a.blue
@@ -167,7 +184,7 @@ header
     max-width: 240px;
 }
 
-.individual-filters a
+.individual-filters h3
 {
     margin-top: 13px;
     font-size: 18px;
@@ -482,10 +499,12 @@ header
     margin: 0px !important;
 }
 
-.activity-card-title
+
+.activity-card-title h3
 {
-    margin: 7px 0px 2px 25px;
+    margin: 7px 0px 2px 25px!important;
     font-weight: bold;
+    font-size: 16px;
 }
 
 .activity-card-max:hover,
@@ -511,5 +530,9 @@ footer
     min-width: 360px;
     align-items: center;
     flex-wrap: wrap;
+}
 
+#footer-title
+{
+    display: none;
 }
