@@ -177,12 +177,12 @@
         }
         #accomodation-margin
         {
-            margin-left: 15px;
+            margin-left: 10px;
         }
 
         .accomodation-title
         {
-            margin-left: 20px;
+            margin-left: 10px;
         }
 
         .accomodation-card
@@ -192,6 +192,7 @@
         }
         .accomodation-card img
         {
+            object-fit: cover;
             width: 340px;
             height: 130px;
         }

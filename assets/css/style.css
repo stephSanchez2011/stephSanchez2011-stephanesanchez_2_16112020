@@ -244,13 +244,13 @@ header
 
 #accomodation-margin
 {
-    margin: 0px 0px 0px 25px;
+    margin: 0px 0px 0px 15px;
 }
 
 .accomodation
 {
     width: 880px;
-    min-width: 380px;
+    min-width: 360px;
     margin: 20px 20px 40px 0px;
     border-radius: 20px;
     background-color: #F2F2F2;
@@ -286,6 +286,8 @@ header
     background: white;
     height: 150px;
     width: 250px;
+    object-fit: cover;
+
 }
 
 .accomodation-card:hover
@@ -400,6 +402,8 @@ header
     border-bottom-left-radius: 20px;
     height: 140px;
     width: 130px;
+    object-fit: cover;
+
 }
 
 .figure-popular
@@ -451,6 +455,7 @@ header
     width: 280px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 .activity-card
@@ -487,6 +492,7 @@ header
     width: 280px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 .activity-cards-smaller
